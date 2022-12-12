@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quizz game</h1>
+    <div class="top-container">
+      <div class="question">
+        <p class="text">
+          <!-- content should be rendered dinamically with JS -->
+        </p>
+        <!-- This block below should appear only if answers is wrong -->
+        <div class="fail">
+          <img src="../images/youtried.png" />
+        </div>
+      </div>
+      <div class="answers">
+        <!-- will be created dinamically with JS -->
+        <!-- structure should look like:  -->
+        <!-- <div><p> ANSWER </p></div> -->
+      </div>
+    </div>
+    <div class="bottom-container">
+      <div class="bar">
+        <div class="progress">
+          <!-- will be created dinamically with JS -->
+          <!-- structure should look like:  -->
+          <!-- <span> QUESTION NUMBER </span> -->
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="start" type="button">Start</button>
+        <button class="restart" type="button">Restart</button>
+        <button class="fifty" type="button">50:50</button>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
