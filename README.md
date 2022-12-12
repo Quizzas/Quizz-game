@@ -4,4 +4,4 @@
  During this project students work as a team and reinforce knowledge of JavaScript DOM manipulation.
 
  ## Run app 
- - It runs on it's own server at http://localhost
+ - It runs on it's own server at http://localhost:5501
