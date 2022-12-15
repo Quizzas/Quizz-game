@@ -20,7 +20,7 @@ const text = document.querySelector('.text');
       p.innerText = answer.text;
       div.appendChild(p);
       answers.appendChild(div);
-      p.addEventListener('click', submit);
+      div.addEventListener('click', submit);
     });
     dataCopy.shift();
   }
