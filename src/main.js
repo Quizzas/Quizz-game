@@ -1,7 +1,7 @@
 import { questions } from "./data.js";
 import { qa } from "../src/modules/chooseAnswer.js";
 
-console.log(questions);
+// console.log(questions);
 
 const text = document.querySelector(".text");
 const progress = document.querySelector(".progress");

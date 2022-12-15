@@ -1,6 +1,6 @@
 "use strict";
 import { questions as data } from "../data.js";
-console.log(data);
+// console.log(data);
 
 const topContainer = document.querySelector(".top-container");
 const question = document.querySelector(".question");
@@ -73,7 +73,7 @@ export const qa = () => {
 
       div.addEventListener("click", () => {
         const span = document.getElementById(`${dataCopy[0].id}`);
-        console.log(span);
+        // console.log(span);
         if (answer.isCorrect) {
           dataCopy.shift();
           answers.remove();
