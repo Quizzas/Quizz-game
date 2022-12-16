@@ -4,7 +4,6 @@ export const displayProgressBar = () => {
   const progressBarArray = [];
 
   for (let i in questions) {
-    console.log(questions[i].id);
     progressBarArray.push(questions[i].id);
   }
 
@@ -12,7 +11,10 @@ export const displayProgressBar = () => {
 
   progressBarArray.map((prog) => {
     const progressBar = document.createElement("span");
+    progressBar.id = prog;
     progressBar.innerText = prog;
     progressDiv.appendChild(progressBar);
   });
+
+  return progressBarArray;
 };
