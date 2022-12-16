@@ -41,6 +41,9 @@ body {
        width: 30px !important;
        height: 30px !important;
     }
+    .question > p{
+        font-size: 2em;
+    }
 }
 
 /* question stuff */
@@ -102,16 +105,21 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 75%;
+    width: 100% !important;
+    
 }
 .answers > div {
     position: relative;
     background-color:rgb(18, 18, 18);
     overflow: hidden;
     border-radius: 50px;
-    min-height: 40%;
-    width: 40%;
-    margin: 1%;
+    height: 15%;
+    width: 15%;
+    max-width: 80%;
+    max-height: 30%;
+    
+
+    margin: 0 1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +127,7 @@ body {
     text-align: center;
     overflow: hidden;
     padding: 4% 2% 2% 2%;
+    font-size: medium;
 }
 
 .answers>div:hover{
@@ -133,6 +142,7 @@ body {
     background: linear-gradient(#00ccff, #d400d4);
     animation: animate2 10s linear infinite;
     border-radius: 50px;
+
     
 }
 .answers > div::after {
@@ -166,15 +176,17 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30px !important;
-    max-width: 100%;
+    height: 40px !important;
+    min-width: 75% !important;
+    max-width: 100% !important;
+
 
 }
 .progress > span {
     background-color: rgb(48, 47, 47);
     margin: 0 2px;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 20px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
@@ -182,6 +194,10 @@ body {
     color: rgb(100, 100, 100);
 }
 
+#restartBtn, #startBtn {
+   background-color: rgb(47, 47, 47) !important ;
+   border: 1px solid #1e1e1e;
+}
 
 /* help classes */
 .borderisred {
