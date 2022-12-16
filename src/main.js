@@ -1,15 +1,15 @@
-import { questions } from "./data.js";
-import { qa } from "../src/modules/chooseAnswer.js";
+import { submit } from "./modules/q&aDisplay.js";
 
-// console.log(questions);
+//layout stuff
+const quizzDisplay = document.getElementById("quizz");
+const startContainer = document.getElementById("start-container");
+const startBtn = document.getElementById("startBtn");
 
-const text = document.querySelector(".text");
-const progress = document.querySelector(".progress");
+startBtn.addEventListener("click", function () {
+  console.log("click");
 
-// ************ show questions and its answers ************
-const questionsCopy = questions.slice(0);
-questionsCopy.push(text);
+  startContainer.classList.add("d-none");
+  quizzDisplay.classList.remove("d-none");
+});
 
-let scores = 0;
-
-qa();
+submit();
