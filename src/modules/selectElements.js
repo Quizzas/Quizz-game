@@ -1,27 +1,27 @@
 
- const listItems = document.getElementsByClassName("top-container")
- console.log(listItems)
+ const topContainer = document.querySelector(".top-container")
+ console.log(topContainer)
 
- const listItems1 = document.getElementsByClassName("question")
- console.log(listItems1)
+ const question = document.querySelectorsName(".question")
+ console.log(question)
 
- const listItems2 = document.getElementsByClassName("text")
- console.log(listItems2)
+ const text = document.querySelector(".text")
+ console.log(text)
 
- const listItems3 = document.getElementsByClassName("bottom-container")
- console.log(listItems3)
+ const bottomContainer = document.querySelector(".bottom-container")
+ console.log(bottomContainer)
 
- const listItems4 = document.getElementsByClassName("bar")
- console.log(listItems4)
+ const bar = document.querySelector(".bar")
+ console.log(bar)
 
- const listItems5 = document.getElementsByClassName("progress")
- console.log(listItems5)
+ const progress = document.gquerySelector(".progress")
+ console.log(progress)
 
- const listItems6 = document.getElementsByClassName("start")
- console.log(listItems6)
+ const start = document.querySelector(".start")
+ console.log(start)
 
- const listItems7 = document.getElementsByClassName("restart")
- console.log(listItems7)
+ const restart = document.querySelector(".restart")
+ console.log(restart)
 
- const listItems8 = document.getElementsByClassName("fifty")
- console.log(listItems8)
+ const fifty = document.querySelector(".fifty")
+ console.log(fifty)
